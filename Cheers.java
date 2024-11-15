@@ -2,10 +2,10 @@
 public class Cheers {
         public static void main(String[] args) {
 	    // Get user input
-            String cheerWord = args[0];
+            String cheerWord = args[0].toUpperCase();
             int numOfPrints = Integer.parseInt(args[1]);
             // Define anLetters 
-            String anLetters = "AaEeFfHhIiLlMmNnOoRrSsXx";
+            String anLetters = "AEFHILMNORSX";
             // Set conditions
             for (int i = 0; i < cheerWord.length(); i++) {
                 if (anLetters.indexOf(cheerWord.charAt(i)) >= 0){
