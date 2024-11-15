@@ -11,7 +11,7 @@ public class Cheers {
                 if (anLetters.indexOf(cheerWord.charAt(i)) >= 0){
                         System.out.println("Give me an " + cheerWord.charAt(i) + ": " + cheerWord.charAt(i) + "!");
                 } else {
-                        System.out.println("Give me a " + cheerWord.charAt(i) + ": " + cheerWord.charAt(i) + "!");
+                        System.out.println("Give me a  " + cheerWord.charAt(i) + ": " + cheerWord.charAt(i) + "!");
                 }
             }
             System.out.println("What does that spell?");
