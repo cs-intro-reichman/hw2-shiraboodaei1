@@ -11,7 +11,7 @@ public class Collatz {
 			int changedSeed = seed;
 			while (lastRun<1){
 				runCount = runCount + 1;
-				if (mood == "v") {
+				if (mood.equals("v")) {
 					System.out.print(changedSeed + " ");
 				}
 				if (changedSeed%2 == 0) {
@@ -21,7 +21,7 @@ public class Collatz {
 				}
 				if (changedSeed == 1){
 					lastRun = 1;
-					if (mood == "v") {
+					if (mood.equals("v")) {
 						System.out.print(1 + " " + "(" + (runCount + 1) + ")");
 						System.out.println("");
 					}
